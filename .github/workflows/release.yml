@@ -39,7 +39,7 @@ jobs:
       VERSION: 2.4.0
     steps:
       - name: Download source from source job
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
@@ -85,7 +85,7 @@ jobs:
       VERSION: 2.4.0
     steps:
       - name: Download source from source job
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
@@ -131,7 +131,7 @@ jobs:
       SO_VERSION: 2
     steps:
       - name: Download source from source job
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 

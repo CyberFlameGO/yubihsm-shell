@@ -35,7 +35,7 @@ jobs:
     runs-on: windows-2019
     steps:
       - name: Download source from job_1
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
@@ -63,7 +63,7 @@ jobs:
 
     steps:
       - name: Download source from job_1
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
@@ -89,7 +89,7 @@ jobs:
     runs-on: windows-2022
     steps:
       - name: Download source from job_1
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
@@ -117,7 +117,7 @@ jobs:
 
     steps:
       - name: Download source from job_1
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v4.1.7
         with:
           name: yubihsm-shell-src
 
